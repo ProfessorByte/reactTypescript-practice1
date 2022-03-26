@@ -1,8 +1,14 @@
+// useState
 import { Counter } from "./components/Counter";
 import { Usuario } from "./components/Usuario";
 
+// useEffect + useRef + customProps
 import { TimerPadre } from "./components/TimerPadre";
 import { ContadorRed } from "./components/ContadorRed";
+
+// customHooks
+import { Formulario } from "./components/Formulario";
+import { Formulario2 } from "./components/Formulario2";
 
 function App() {
   return (
@@ -26,6 +32,15 @@ function App() {
       <hr />
 
       <ContadorRed />
+
+      <h2>customHooks</h2>
+      <hr />
+
+      <Formulario />
+
+      <br />
+
+      <Formulario2 />
     </>
   );
 }
